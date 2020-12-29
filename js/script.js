@@ -149,10 +149,10 @@ function showResultBox() {
     quiz_box.classList.remove("activeQuiz"); // hide the quiz box
     result_box.classList.add("activeResult"); // Show the result box
     const scoreText = result_box.querySelector('.score_text');
-    if (userScore > 3) {
+    if (userScore > 8) {
         let scoreTag = '<span>and congrats! 🎉 you got <p>' + userScore + '</p> out of<p>' + questions.length + '</p></span>';
         scoreText.innerHTML = scoreTag;
-    } else if (userScore > 1) {
+    } else if (userScore > 5) {
         let scoreTag = '<span>and nice 😎, you got <p>' + userScore + '</p> out of<p>' + questions.length + '</p></span>';
         scoreText.innerHTML = scoreTag;
     } else {

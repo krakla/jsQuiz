@@ -1,57 +1,111 @@
 // Creating an array and passing the number, questions, options, and answers
 let questions = [{
         numb: 1,
-        question: 'What does HTML stand for?',
-        answer: 'Hyper Text Markup Language',
+        question: 'Which of the following is not JavaScript Data Types?',
+        answer: 'Float',
         options: [
-            'Hyper Text Preprocessor',
-            'Hyper Text Markup Language',
-            'Hyper Text Multiple Language',
-            'Hyper Tool Multi Language'
+            'Undefined',
+            'Number',
+            'Boolean',
+            'Float'
         ]
     },
     {
         numb: 2,
-        question: 'What does CSS stand for?',
-        answer: 'Cascading Style Sheet',
+        question: 'Which company developed JavaScript?',
+        answer: 'Netscape',
         options: [
-            'Common Style Sheet',
-            'Colorful Style Sheet',
-            'Computer Style Sheet',
-            'Cascading Style Sheet'
+            'Netscape',
+            'Bell Labs',
+            'Sun Microsystems',
+            'IBM'
         ]
     },
     {
         numb: 3,
-        question: 'What does PHP stand for?',
-        answer: 'Hypertext Preprocessor',
+        question: 'What are the types of Pop up boxes available in JavaScript?',
+        answer: 'Alert',
         options: [
-            'Hypertext Preprocessor',
-            'Hypertext Programming',
-            'Hypertext Preprogramming',
-            'Hometext Preprocessor'
+            'Alert',
+            'Prompt',
+            'Confirm',
+            'All of the above',
         ]
     },
     {
         numb: 4,
-        question: 'What does SQL stand for?',
-        answer: 'Structured Query Language',
+        question: 'Which of the following is not Javascript frameworks or libraries?',
+        answer: 'Cassandra',
         options: [
-            'Stylish Question Language',
-            'Stylesheet Query Language',
-            'Statement Question Language',
-            'Structured Query Language'
+            'Polymer',
+            'Meteor',
+            'Cassandra',
+            'jQuery'
         ]
     },
     {
         numb: 5,
-        question: 'What does XML stand for?',
-        answer: 'eXtensible Markup Language',
+        question: 'Why so JavaScript and Java have similar name?',
+        answer: "JavaScript's syntax is loosely based on Java's",
+        options: ['JavaScript is a stripped-down version of Java',
+            "JavaScript's syntax is loosely based on Java's",
+            'They both originated on the island of Java ',
+            'None of the above'
+        ]
+    }, {
+        numb: 6,
+        question: 'What is the original name of JavaScript?',
+        answer: 'Mocha',
         options: [
-            'eXtensible Markup Language',
-            'eXecutable Multiple Language',
-            'eXTra Multi-Program Language',
-            'eXamine Multiple Language'
+            'LiveScript',
+            'EScript',
+            'Mocha',
+            'JavaScript'
+        ]
+    },
+    {
+        numb: 7,
+        question: 'Which of the following is correct about features of JavaScript?',
+        answer: 'JavaScript is a object-based scripting language.',
+        options: [
+            'It can not Handling dates and time.',
+            'JavaScript is a object - based scripting language.',
+            'JavaScript is not interpreter based scripting language.',
+            'All of the above'
+        ]
+    },
+
+    {
+        numb: 8,
+        question: 'Choose the correct JavaScript syntax to change the content of the following HTML code.',
+        answer: 'document.getElementById (“letsfindcourse").innerHTML = "I am a letsfindcourse";',
+        options: [
+            'document.getElement (“letsfindcourse").innerHTML = "I am a letsfindcourse";',
+            'document.getElementById(“letsfindcourse ").innerHTML = "I am a letsfindcourse ";',
+            'document.getId(“letsfindcourse ") = "I am a letsfindcourse ";',
+            'document.getElementById(“letsfindcourse ").innerHTML = I am a letsfindcourse;'
+        ]
+    },
+    {
+        numb: 9,
+        question: 'Which of the following is the correct syntax to display "Letsfindcourse" in an alert box using JavaScript ?',
+        answer: 'alert("Letsfindcourse");',
+        options: [
+            'alert-box("Letsfindcourse");',
+            'confirm("Letsfindcourse");',
+            'msgbox("Letsfindcourse");',
+            'alert("Letsfindcourse");'
+        ]
+    },
+    {
+        numb: 10,
+        question: 'Which of them is not the looping structures in JavaScript?',
+        answer: 'confirm',
+        options: [
+            'for',
+            'while',
+            'confirm',
+            'all of the above'
         ]
     },
 ]
